@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, u
 
 ## Supported MCP Servers and Their Capabilities
 
-### 1. **Base MCP Server** ([GitHub](https://github.com/base/base-mcp))
+### 1. [**Base MCP Server**](https://github.com/base/base-mcp)
 
 A Model Context Protocol (MCP) server for the Base Network and Coinbase API, enabling AI applications to interact with Base for wallet management, token operations, contract deployment, NFTs, onramping, and more.
 
@@ -35,7 +35,7 @@ A Model Context Protocol (MCP) server for the Base Network and Coinbase API, ena
 
 ---
 
-### 2. **Berachain MCP Server** ([GitHub](https://github.com/PlayAINetwork/bera-mcp))
+### 2. [**Berachain MCP Server**](https://github.com/PlayAINetwork/bera-mcp)
 
 An MCP server for AI agents to interact with the Berachain blockchain, supporting wallet, token, transaction, and block operations.
 
@@ -49,7 +49,7 @@ An MCP server for AI agents to interact with the Berachain blockchain, supportin
 
 ---
 
-### 3. **Abstract Chain MCP Server** ([GitHub](https://github.com/PlayAINetwork/abstract-mcp))
+### 3. [**Abstract Chain MCP Server**](https://github.com/PlayAINetwork/abstract-mcp)
 
 A Model Context Protocol (MCP) server for the Abstract Chain blockchain, providing wallet, token, transaction, and block data tools.
 
@@ -63,7 +63,7 @@ A Model Context Protocol (MCP) server for the Abstract Chain blockchain, providi
 
 ---
 
-### 4. **BNBChain MCP (Binance Smart Chain Tool Server)** ([GitHub](https://github.com/TermiX-official/bsc-mcp))
+### 4. [**BNBChain MCP (Binance Smart Chain Tool Server)**](https://github.com/TermiX-official/bsc-mcp)
 
 A plug-and-play MCP tool server for Binance Smart Chain (BSC), supporting native/BEP-20 transfers, contract interaction, token deployment, PancakeSwap, and more.
 
@@ -85,7 +85,7 @@ A plug-and-play MCP tool server for Binance Smart Chain (BSC), supporting native
 
 ---
 
-### 5. **EVM Agent Kit MCP** ([GitHub](https://github.com/mcp-dao/evm-agent-kit))
+### 5. [**EVM Agent Kit MCP**](https://github.com/mcp-dao/evm-agent-kit)
 
 An open-source toolkit for connecting AI agents to EVM-compatible blockchains, supporting token operations, DeFi, market data, and social data.
 
@@ -104,7 +104,7 @@ An open-source toolkit for connecting AI agents to EVM-compatible blockchains, s
 
 ---
 
-### 6. **Solana Agent Kit MCP** ([GitHub](https://github.com/sendaifun/solana-agent-kit))
+### 6. [**Solana Agent Kit MCP**](https://github.com/sendaifun/solana-agent-kit)
 
 An open-source toolkit for connecting AI agents to Solana, supporting 60+ actions including token trading, NFT management, DeFi, airdrops, bridging, and more.
 
