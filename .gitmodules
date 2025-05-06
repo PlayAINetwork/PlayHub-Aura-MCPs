@@ -1,0 +1,18 @@
+[submodule "abstract-mcp"]
+	path = abstract-mcp
+	url = https://github.com/PlayAINetwork/abstract-mcp
+[submodule "bera-mcp"]
+	path = bera-mcp
+	url = https://github.com/PlayAINetwork/bera-mcp
+[submodule "bsc-mcp"]
+	path = bsc-mcp
+	url = https://github.com/TermiX-official/bsc-mcp
+[submodule "solana-mcp"]
+	path = solana-mcp
+	url = https://github.com/sendaifun/solana-agent-kit
+[submodule "base-mcp"]
+	path = base-mcp
+	url = https://github.com/base/base-mcp
+[submodule "evm-mcp"]
+	path = evm-mcp
+	url = https://github.com/mcp-dao/evm-agent-kit
