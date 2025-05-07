@@ -17,6 +17,12 @@ By automating the selection and deployment of agents and tools, Aura eliminates 
 
 ---
 
+## Demo
+
+[Four Meme Token Launch Demo](https://drive.google.com/file/d/1HKHtkIbw_EyfZbw_LRX_zHDg0vP0cWcI/preview)
+
+---
+
 ## Supported MCP Servers and Their Capabilities
 
 ### 1. [**BNBChain MCP (Binance Smart Chain Tool Server)**](https://github.com/TermiX-official/bsc-mcp)
