@@ -19,7 +19,10 @@ By automating the selection and deployment of agents and tools, Aura eliminates 
 
 ## Demo
 
-[Four Meme Token Launch Demo](https://drive.google.com/file/d/1HKHtkIbw_EyfZbw_LRX_zHDg0vP0cWcI/preview)
+This demo showcases the process of launching a meme token on the Four.Meme platform using the BNB Chain MCP.
+
+https://github.com/user-attachments/assets/91840c8c-54ba-4372-ae4c-38b12278db64
+
 
 ---
 
