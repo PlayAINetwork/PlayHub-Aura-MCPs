@@ -1,18 +1,47 @@
-# [Project Name Placeholder]
+# Aura — PlayAI Network
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, vitae euismod nisl nunc euismod nunc.
+Aura, acts as the orchestrator within PlayHub, designed to seamlessly connect agents, applications, and tools, facilitating smooth coordination to complete complex tasks across both on-chain and off-chain environments. It acts as the central hub that manages and directs the flow of information and processes between different systems, ensuring that tasks are handled efficiently without the need for manual intervention.
 
 ---
 
-## Description
+### **How Aura Works**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, vitae euismod nisl nunc euismod nunc.
+Aura is designed to intelligently manage the complexities of task orchestration by automatically selecting and deploying the most suitable **Model Context Protocol (MCP)** or agent for each task. The process operates as follows:
+
+1. **Task Identification:** When a user initiates a task, Aura analyzes the requirements—whether they involve a specific tool, application, or agent.
+2. **Automatic Selection:** Based on the context, Aura identifies the most appropriate MCP or agent to execute the task. It evaluates available agents and tools, considering task complexity and the optimal solution to achieve the desired outcome.
+3. **Task Execution:** After selecting the appropriate MCP or agent, Aura deploys it to complete the task. This process is fully automated, allowing users to focus on their objectives without needing to determine which tool or agent to use.
+4. **Cross-Environment Coordination:** Aura manages interactions between on-chain and off-chain environments, ensuring that blockchain-based and traditional processes are seamlessly integrated and executed as required.
+
+By automating the selection and deployment of agents and tools, Aura eliminates technical barriers and streamlines interactions across diverse systems. Users benefit from a unified experience, without the need to navigate fragmented workflows or manually select the right resources—Aura handles everything efficiently and transparently.
 
 ---
 
 ## Supported MCP Servers and Their Capabilities
 
-### 1. [**Base MCP Server**](https://github.com/base/base-mcp)
+### 1. [**BNBChain MCP (Binance Smart Chain Tool Server)**](https://github.com/TermiX-official/bsc-mcp)
+
+A plug-and-play MCP tool server for Binance Smart Chain (BSC), supporting native/BEP-20 transfers, contract interaction, token deployment, PancakeSwap, and more.
+
+**Available Tools:**
+
+- `transferNativeToken`: Send BNB to a wallet.
+- `transferBEP20Token`: Transfer BEP-20 tokens.
+- `pancakeSwap`: Swap tokens via PancakeSwap.
+- `createFourMeme`: Create meme tokens on Four.Meme.
+- `createBEP20Token`: Deploy a BEP-20 contract.
+- `getBalance`: Get token and native balance.
+- `callContractFunction`: Custom contract calls via ABI.
+- `getWalletInfo`: Get wallet info for an address.
+- `securityCheck`: Check token security.
+- `pancakeAddLiquidity`: Add liquidity to PancakeSwap.
+- `pancakeMyPosition`: View PancakeSwap positions.
+- `pancakeRemovePosition`: Remove liquidity from PancakeSwap.
+- `sellMemeToken`: Sell meme tokens on Four.Meme.
+
+---
+
+### 2. [**Base MCP Server**](https://github.com/base/base-mcp)
 
 A Model Context Protocol (MCP) server for the Base Network and Coinbase API, enabling AI applications to interact with Base for wallet management, token operations, contract deployment, NFTs, onramping, and more.
 
@@ -35,7 +64,7 @@ A Model Context Protocol (MCP) server for the Base Network and Coinbase API, ena
 
 ---
 
-### 2. [**Berachain MCP Server**](https://github.com/PlayAINetwork/bera-mcp)
+### 3. [**Berachain MCP Server**](https://github.com/PlayAINetwork/bera-mcp)
 
 An MCP server for AI agents to interact with the Berachain blockchain, supporting wallet, token, transaction, and block operations.
 
@@ -49,7 +78,7 @@ An MCP server for AI agents to interact with the Berachain blockchain, supportin
 
 ---
 
-### 3. [**Abstract Chain MCP Server**](https://github.com/PlayAINetwork/abstract-mcp)
+### 4. [**Abstract Chain MCP Server**](https://github.com/PlayAINetwork/abstract-mcp)
 
 A Model Context Protocol (MCP) server for the Abstract Chain blockchain, providing wallet, token, transaction, and block data tools.
 
@@ -60,28 +89,6 @@ A Model Context Protocol (MCP) server for the Abstract Chain blockchain, providi
 - `getTokenInfo`: Get detailed ERC20 token information.
 - `getTransactionData`: Get transaction and receipt data.
 - `getBlockInfo`: Get information about a specific block.
-
----
-
-### 4. [**BNBChain MCP (Binance Smart Chain Tool Server)**](https://github.com/TermiX-official/bsc-mcp)
-
-A plug-and-play MCP tool server for Binance Smart Chain (BSC), supporting native/BEP-20 transfers, contract interaction, token deployment, PancakeSwap, and more.
-
-**Available Tools:**
-
-- `transferNativeToken`: Send BNB to a wallet.
-- `transferBEP20Token`: Transfer BEP-20 tokens.
-- `pancakeSwap`: Swap tokens via PancakeSwap.
-- `createFourMeme`: Create meme tokens on Four.Meme.
-- `createBEP20Token`: Deploy a BEP-20 contract.
-- `getBalance`: Get token and native balance.
-- `callContractFunction`: Custom contract calls via ABI.
-- `getWalletInfo`: Get wallet info for an address.
-- `securityCheck`: Check token security.
-- `pancakeAddLiquidity`: Add liquidity to PancakeSwap.
-- `pancakeMyPosition`: View PancakeSwap positions.
-- `pancakeRemovePosition`: Remove liquidity from PancakeSwap.
-- `sellMemeToken`: Sell meme tokens on Four.Meme.
 
 ---
 
